@@ -1,5 +1,10 @@
 <template>
-  <div></div>
+  <div class="filmsDisplayerWrapper">
+    <h1>Buscador pelis</h1>
+    <searcher />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Searcher from './Searcher.vue';
+</script>

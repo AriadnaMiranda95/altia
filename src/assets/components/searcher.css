@@ -1,0 +1,22 @@
+.searcherWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: .4em;
+    padding: .6em;
+
+    .inputSearcher {
+        padding: 1em 1.8em;
+        border-radius: .5em;
+        border:none;
+        background-color: #111e24;
+        color: white;
+        min-width: fit-content;
+    }
+    .inputSearcher:focus {
+        outline: 2px solid #1a5f79;
+
+    }
+}

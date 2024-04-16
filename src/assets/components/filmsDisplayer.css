@@ -1,0 +1,15 @@
+.filmsDisplayerWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}

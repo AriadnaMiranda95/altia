@@ -1,0 +1,22 @@
+.button-wrapper {
+    width: fit-content;
+    background-color: #07151a;
+    cursor: pointer;
+    border-radius: .5em;
+    padding: .8em 2em;
+    text-align: center;
+    min-width: fit-content;
+    input {
+      background-color: transparent;
+      border: none;
+      color: white;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+  .button-wrapper:hover {
+    transition-duration: 0.2s;
+    background-color: #1a5f79;
+    
+  }
+  
